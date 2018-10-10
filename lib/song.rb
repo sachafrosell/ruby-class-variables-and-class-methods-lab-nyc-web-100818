@@ -29,6 +29,7 @@ class Song
   end 
   
   def genre_count
+    counts = Hash.new 0 
     @@genres.each do |genre|
       if genre 
   end 
