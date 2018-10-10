@@ -28,5 +28,10 @@ class Song
     @@artists.uniq
   end 
   
+  def genre_count
+    @@genres.each do |genre|
+      if genre 
+  end 
+  
   
 end 
